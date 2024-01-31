@@ -9,4 +9,9 @@ export class AuthController {
   async create(@Body() dto: {}, @Query() id: string) {
     return this.service.createPost(dto, id);
   }
+  
+  @Get()
+  async hello(){
+    return 'hello Connect Developer'
+  }
 }
