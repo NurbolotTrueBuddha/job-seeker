@@ -25,4 +25,4 @@ jobs:
       - run: yarn
       - run: yarn build
       # Deploy
-      - run: yarn start:dev
+      - deploy: yarn start:dev
