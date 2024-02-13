@@ -26,6 +26,7 @@ export default registerAs('config', () => ({
       cli: {
         migrationsDir: 'migrations',
       },
+      
     },
   },
 }));
