@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import { SendOtpDto } from './dto';
 
 @Injectable()
 export class AuthService {
-  async createPost(data: {}, id: string){
-
+  async createPost(dto: SendOtpDto){
+    
   }
 }
